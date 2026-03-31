@@ -1,0 +1,25 @@
+# Smart Vision — Face Detection System
+# Install with:  pip install -r requirements.txt
+
+# Core
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Face detection
+face-recognition>=1.3.0       # wraps dlib HOG+SVM and CNN
+dlib>=19.24.0                  # underlying ML engine
+mediapipe>=0.10.0              # landmark detection (optional module)
+
+# Data handling
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Dashboard
+streamlit>=1.28.0
+
+# Utilities
+python-dotenv>=1.0.0           # .env config support
+plyer>=2.1.0                   # desktop notifications (optional)
